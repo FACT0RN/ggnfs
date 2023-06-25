@@ -2,7 +2,7 @@
 #include <limits.h>
 #include <sys/types.h>
 #include <math.h>
-
+#include <stdlib.h>
 #include "asm/siever-config.h"
 #include "if.h"
 #include "real-poly-aux.h"

@@ -20,7 +20,7 @@ typedef ptrdiff_t ssize_t;
 #define memalign(x, y)  _aligned_malloc(y, x)
 #define bzero(x, y)     memset(x, 0, y)
 
-#define L1_BITS 15
+#define L1_BITS 16
 /* ===if you change L1_BITS here, change l1_bits define in ls-defs.asm ===*/
 /* L1_BITS 15 for Intel Core2 (32Kb L1 data cache), AMD K6 */
 /* L1_BITS 16 for Phenom/Opteron... AMD K7 and up  */

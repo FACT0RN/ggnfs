@@ -10,7 +10,7 @@ Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
 02111-1307, USA.
 
 @(siever-config.h@>=
-#define L1_BITS 14
+#define L1_BITS 16
 #define ULONG_RI
 #define HAVE_CMOV
 #define HAVE_SSIMD

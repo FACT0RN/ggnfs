@@ -1,9 +1,9 @@
 # Workaround for PPC
 # Due to unknown reason -march isn't supported there
 ifeq ($(ARCH),970)
-    ALLOPT=-mcpu=$(ARCH) -m64 -pipe
+    ALLOPT=-mcpu=native -m64 -pipe
 else
-    ALLOPT=-march=$(ARCH) -pipe
+    ALLOPT=-march=native -pipe
 endif
 
 INC=-I. -I.. -I../include $(LOCALINC)
