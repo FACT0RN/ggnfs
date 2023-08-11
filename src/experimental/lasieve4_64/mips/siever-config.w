@@ -11,7 +11,7 @@ Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
 02111-1307, USA.
 
 @(siever-config.h@>=
-#define L1_BITS 16
+#define L1_BITS 15
 #define ULONG_RI
 typedef unsigned long u32_t;
 typedef long int i32_t;
